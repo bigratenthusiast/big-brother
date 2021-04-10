@@ -29,7 +29,7 @@ git clone https://github.com/bigratenthusiast/big-brother
 Next, open up a terminal and cd into the directory ig...
 
 ```bash
-cd john-twitch
+cd big-brother
 ```
 
 ### NPM Packages 
