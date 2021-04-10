@@ -1,0 +1,12 @@
+{
+    "bot": {
+        "prefix": "?",
+        "prefix_appended": false,
+        "client_id": "",
+        "token": ""
+    },
+    "usermap": {
+        "username": "userid"
+    },
+    "python3": false
+}

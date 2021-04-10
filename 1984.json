@@ -1,0 +1,45 @@
+{
+  "voice": {
+    "deny": [
+      "dream",
+      "fortnight",
+      "fortnite",
+      "1984",
+      "censor",
+      "c9",
+      "sus",
+      "scan",
+      "reactor",
+      "centrist",
+      "instruction manual",
+      "george",
+      "impostor",
+      "imposter",
+      "among us",
+      "amogus"
+    ],
+    "allow": []
+  },
+  "text": {
+    "deny": [
+      "sus",
+      "crew",
+      "vents",
+      "imposter",
+      "among us",
+      "ä",
+      "impostor",
+      "ocena",
+      "task"
+    ],
+    "orwell": [
+      "acosp_l",
+      "acosp_p",
+      "e_heart_drool",
+      "tamon",
+      "eject",
+      "vente"
+    ],
+    "allow": ["suspect", "jesus", "prevent"]
+  }
+}
