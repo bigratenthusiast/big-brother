@@ -48,6 +48,9 @@ You might have to use pip3
 ## Config
 Head into `config.json` and set `python-3` to true if you are using python 3. Set the bot prefix and anythign else you wanan set ig
 
+## Censorship
+Open up `1984.json` and add stuff to the list of things to censor in voice or in text
+
 ## Usage 
 Run npm run start and invite the bot to your server
 
