@@ -17,9 +17,11 @@ export class MessageHandler {
     }
     public static handleTextMessage(message: Message) {
         let content:string = message.content.toLowerCase();
+        let fail;
         Utils["1984"].text.allow.forEach(allowed => {
-            if (content.includes(allowed)) return;
+            if (content.includes(allowed)) fail = true;
         })
+        if (fail) return;
         Utils["1984"].text.deny.forEach(denied => {
             if (content.includes(denied)) {
                 // noinspection JSIgnoredPromiseFromCall
