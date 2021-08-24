@@ -10,7 +10,7 @@ export class MessageHandler {
         Utils["1984"].voice.deny.forEach(denied => {
             if (content.includes(denied)) {
                 // noinspection JSIgnoredPromiseFromCall
-                member.guild.members.cache.get(member.id).voice.kick();
+                member.guild.members.cache.get(author.id).voice.kick();
             }
         })
         console.log(content);
